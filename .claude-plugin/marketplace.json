@@ -1,0 +1,23 @@
+{
+  "name": "fireworks",
+  "owner": {
+    "name": "Fireworks"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/fireworks-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "fireworks-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/fireworks-chat.git"
+      }
+    },
+    {
+      "name": "fireworks-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/fireworks-images.git"
+      }
+    }
+  ]
+}
